@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		32D7587E27FCCF55007A9526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7587D27FCCF55007A9526 /* AppDelegate.swift */; };
 		32D7588027FCCF55007A9526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7587F27FCCF55007A9526 /* SceneDelegate.swift */; };
-		32D7588227FCCF55007A9526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7588127FCCF55007A9526 /* ViewController.swift */; };
-		32D7588527FCCF55007A9526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D7588327FCCF55007A9526 /* Main.storyboard */; };
 		32D7588727FCCF56007A9526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D7588627FCCF56007A9526 /* Assets.xcassets */; };
 		32D7588A27FCCF56007A9526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D7588827FCCF56007A9526 /* LaunchScreen.storyboard */; };
+		32D7589827FCCFC1007A9526 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7589727FCCFC1007A9526 /* CreateAccountView.swift */; };
+		32D7589A27FCCFD2007A9526 /* CreateAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7589927FCCFD2007A9526 /* CreateAccountPresenter.swift */; };
+		32D7589D27FCCFE4007A9526 /* CreateAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7589C27FCCFE4007A9526 /* CreateAccountInteractor.swift */; };
+		32D7589F27FCCFF0007A9526 /* CreateAccountEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D7589E27FCCFF0007A9526 /* CreateAccountEntity.swift */; };
+		32D758A127FCCFFC007A9526 /* CreateAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D758A027FCCFFC007A9526 /* CreateAccountRouter.swift */; };
+		32D758A327FCDCD8007A9526 /* CreateAccountAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D758A227FCDCD8007A9526 /* CreateAccountAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32D7587A27FCCF55007A9526 /* VIPER-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D7587D27FCCF55007A9526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D7587F27FCCF55007A9526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32D7588127FCCF55007A9526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32D7588427FCCF55007A9526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D7588627FCCF56007A9526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D7588927FCCF56007A9526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D7588B27FCCF56007A9526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D7589727FCCFC1007A9526 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		32D7589927FCCFD2007A9526 /* CreateAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPresenter.swift; sourceTree = "<group>"; };
+		32D7589C27FCCFE4007A9526 /* CreateAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountInteractor.swift; sourceTree = "<group>"; };
+		32D7589E27FCCFF0007A9526 /* CreateAccountEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountEntity.swift; sourceTree = "<group>"; };
+		32D758A027FCCFFC007A9526 /* CreateAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRouter.swift; sourceTree = "<group>"; };
+		32D758A227FCDCD8007A9526 /* CreateAccountAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,67 @@
 		32D7587C27FCCF55007A9526 /* VIPER-App */ = {
 			isa = PBXGroup;
 			children = (
+				32D7589127FCCF6A007A9526 /* CreateAccountModule */,
 				32D7587D27FCCF55007A9526 /* AppDelegate.swift */,
 				32D7587F27FCCF55007A9526 /* SceneDelegate.swift */,
-				32D7588127FCCF55007A9526 /* ViewController.swift */,
-				32D7588327FCCF55007A9526 /* Main.storyboard */,
 				32D7588627FCCF56007A9526 /* Assets.xcassets */,
 				32D7588827FCCF56007A9526 /* LaunchScreen.storyboard */,
 				32D7588B27FCCF56007A9526 /* Info.plist */,
 			);
 			path = "VIPER-App";
+			sourceTree = "<group>";
+		};
+		32D7589127FCCF6A007A9526 /* CreateAccountModule */ = {
+			isa = PBXGroup;
+			children = (
+				32D758A227FCDCD8007A9526 /* CreateAccountAssembly.swift */,
+				32D7589627FCCFA6007A9526 /* Router */,
+				32D7589527FCCF9E007A9526 /* Entity */,
+				32D7589427FCCF97007A9526 /* Interactor */,
+				32D7589327FCCF8D007A9526 /* Presenter */,
+				32D7589227FCCF87007A9526 /* View */,
+			);
+			path = CreateAccountModule;
+			sourceTree = "<group>";
+		};
+		32D7589227FCCF87007A9526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32D7589727FCCFC1007A9526 /* CreateAccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32D7589327FCCF8D007A9526 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				32D7589927FCCFD2007A9526 /* CreateAccountPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		32D7589427FCCF97007A9526 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				32D7589C27FCCFE4007A9526 /* CreateAccountInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		32D7589527FCCF9E007A9526 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				32D7589E27FCCFF0007A9526 /* CreateAccountEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		32D7589627FCCFA6007A9526 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				32D758A027FCCFFC007A9526 /* CreateAccountRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +187,6 @@
 			files = (
 				32D7588A27FCCF56007A9526 /* LaunchScreen.storyboard in Resources */,
 				32D7588727FCCF56007A9526 /* Assets.xcassets in Resources */,
-				32D7588527FCCF55007A9526 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D7588227FCCF55007A9526 /* ViewController.swift in Sources */,
+				32D7589D27FCCFE4007A9526 /* CreateAccountInteractor.swift in Sources */,
+				32D758A127FCCFFC007A9526 /* CreateAccountRouter.swift in Sources */,
+				32D7589A27FCCFD2007A9526 /* CreateAccountPresenter.swift in Sources */,
+				32D7589F27FCCFF0007A9526 /* CreateAccountEntity.swift in Sources */,
+				32D7589827FCCFC1007A9526 /* CreateAccountView.swift in Sources */,
 				32D7587E27FCCF55007A9526 /* AppDelegate.swift in Sources */,
 				32D7588027FCCF55007A9526 /* SceneDelegate.swift in Sources */,
+				32D758A327FCDCD8007A9526 /* CreateAccountAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32D7588327FCCF55007A9526 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32D7588427FCCF55007A9526 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32D7588827FCCF56007A9526 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +350,9 @@
 				INFOPLIST_FILE = "VIPER-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +378,9 @@
 				INFOPLIST_FILE = "VIPER-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
